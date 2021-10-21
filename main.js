@@ -1,5 +1,4 @@
-const { lstatSync } = require("fs");
-
+#!/usr/bin/env node 
 let inputArray=process.argv.slice(2);
 fs=require("fs");
 path=require("path");

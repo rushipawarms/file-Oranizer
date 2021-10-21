@@ -1,0 +1,22 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushipawarms/file-Oranizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "bugs": {
+    "url": "https://github.com/rushipawarms/file-Oranizer/issues"
+  },
+  "homepage": "https://github.com/rushipawarms/file-Oranizer#readme",
+  "bin":{ "rushi":"main.js"}
+}
