@@ -34,7 +34,7 @@ function funOrg(filePath)
 {
     if(filePath==undefined)
     {
-        console.log("enter file path");
+        let filePath=process.cwd();
         return;
     }
     else{
@@ -102,7 +102,8 @@ function funTree(filePath)
 {
     if(filePath==undefined)
     {
-        console.log("enter file path");
+        let filePath=process.cwd();
+        treehelper(filePath,"");
         return;
     }
     else{
